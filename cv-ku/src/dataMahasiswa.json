@@ -7,7 +7,7 @@
     "nim": "L200230257",
     "prodi": "Teknik Informatika",
     "angkatan": "2023",
-    "photo_url": "https://cdn.talenta-ums.ac.id/photos/aulia.jpg",
+    "photo_url": "/src/assets/din.jpg",
     "headline": "Fullstack Web Developer | React & Django Enthusiast",
     "short_bio": "Mahasiswa UMS dengan minat pada pengembangan web fullstack.",
     "location": "Surakarta, Jawa Tengah",
@@ -62,7 +62,7 @@
       "start_date": "2024-02-01",
       "end_date": "2024-12-15",
       "description": "Mengembangkan keterampilan kepemimpinan dan sosial, manajemen waktu, memperluas jaringan pertemanan dan relasi profesional, serta menjadi ajang untuk mengasah soft skills dan menambah pengalaman yang berguna di dunia kerja.",
-      "image_url": "https://cdn.example.com/company/digitalsolusi.png"
+      "image_url": "/src/assets/hima.jpg"
     },
     {
       "id": 102,
@@ -72,7 +72,7 @@
       "start_date": "2025-02-01",
       "end_date": "2025-12-31",
       "description": "Memastikan kesehatan keuangan, mengelola arus kas, dan menjaga agar organisasi memiliki sumber daya yang cukup untuk operasi, serta mengelola risiko keuangan.",
-      "image_url": "https://cdn.example.com/logo/ukm-informatika.png"
+      "image_url": "/src/assets/hmp.jpg"
     },
     {
       "id": 103,
