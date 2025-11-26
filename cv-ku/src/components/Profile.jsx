@@ -7,9 +7,13 @@ const Profile = ({ profile, stats }) => {
         <img
           src={profile.photo_url}
           className="rounded-circle me-4"
-          width="110"
-          height="110"
           alt="Foto"
+          style={{
+            width: "120px",
+            height: "120px",
+            objectFit: "cover",
+            borderRadius: "8px"
+        }}
         />
 
         <div>

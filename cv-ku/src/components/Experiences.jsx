@@ -26,7 +26,17 @@ const Experiences = ({ experiences }) => {
       <h5 className="fw-bold mb-4">Experience</h5>
 
       {experiences.map((exp) => (
-        <div key={exp.id} className="border-bottom pb-3 mb-3">
+        <div key={exp.id} className="border-bottom pb-3 mb-3 ">
+            {exp.image_url && (
+            <img 
+              src={exp.image_url} 
+              alt={exp.organization} 
+              width="55"
+              height="55"
+              className="rounded"
+              style={{ objectFit: "cover" }}
+            />
+          )}
           <h6 className="fw-bold">{exp.title}</h6>
           <p className="text-muted mb-1">{exp.organization}</p>
 
