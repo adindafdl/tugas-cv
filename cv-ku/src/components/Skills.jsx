@@ -1,56 +1,53 @@
-// import React from "react";
-
-// const Skills = ({ skills }) => {
-//   return (
-//     <div className="card p-3 mb-3">
-//       <h3>Skills</h3>
-//       <ul>
-//         {skills.map(skill => (
-//           <li key={skill.id}>
-//             {skill.name} ({skill.level})
-//           </li>
-//         ))}
-//       </ul>
-//     </div>
-//   );
-// };
-
-// export default Skills;
-
 import React from "react";
 
 const Skills = ({ skills }) => {
+const getPercentage = (level) => {
+    switch (level.toLowerCase()) {
+      case "main": return 100;
+      case "expert": return 90;
+      case "advanced": return 80;
+      case "intermediate": return 60;
+      case "beginner": return 40;
+      default: return 50;
+    }
+  };
   return (
     <div className="card border-0 shadow p-4 mb-4">
       <h5 className="fw-bold mb-3">Skills & Expertise</h5>
 
       <div className="row g-4">
-        {skills.map((skill) => (
-          <div key={skill.id} className="col-md-6">
-            <div className="p-3 border rounded d-flex flex-column">
-              <div className="d-flex align-items-center gap-3">
-                <img src={skill.icon_url} width="40" alt="" />
-                <div>
-                  <strong>{skill.name}</strong>
-                  <div className="text-muted small">
-                    {skill.years_of_experience} years experience
-                  </div>
+        {skills.map((skill) => {
+            const percent = getPercentage(skill.level);
+            return (
+                <div key={skill.id} className="col-md-6">
+                    <div className="p-3 border rounded">
+                        <div className="d-flex align-items-center gap-3">
+                            <img src={skill.icon_url} width="40" alt="" />
+                            <div>
+                                <strong>{skill.name}</strong>
+                                <small className="text-muted d-block">
+                                    {skill.years_of_experience} years experience
+                                </small>
+                            </div>
+                        </div>
+
+                        <div className="d-flex align-items-center gap-3">
+                            <span className="fw-bold small" style={{ width: "45px" }}>
+                                {percent}%
+                            </span>
+                            <div className="progress flex-grow-1" style={{ height: "6px" }}>
+                            <div className="progress-bar" style={{ width: `${percent}%` }}></div>
+                        </div>
+                        <span
+                            className="badge bg-primary"
+                            style={{ width: "100px", textAlign: "center" }}>
+                            {skill.level}
+                        </span>
+                    </div>
                 </div>
-              </div>
-
-              <div className="progress mt-3" style={{ height: "6px" }}>
-                <div
-                  className="progress-bar"
-                  style={{ width: skill.is_main ? "100%" : "66%" }}
-                ></div>
-              </div>
-
-              <span className="badge bg-primary mt-2">
-                {skill.is_main ? "Main" : skill.level}
-              </span>
             </div>
-          </div>
-        ))}
+        );
+        })}
       </div>
     </div>
   );

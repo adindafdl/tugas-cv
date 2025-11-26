@@ -19,7 +19,7 @@
       "id": 1,
       "name": "ReactJS",
       "category": "technical",
-      "level": "beginner",
+      "level": "Beginner",
       "is_main": true,
       "years_of_experience": "",
       "icon_url": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg"
@@ -28,7 +28,7 @@
       "id": 2,
       "name": "Django REST Framework",
       "category": "technical",
-      "level": "beginner",
+      "level": "Beginner",
       "is_main": true,
       "years_of_experience": "",
       "icon_url": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/django/django-plain.svg"
@@ -37,16 +37,16 @@
       "id": 3,
       "name": "Bootstrap CSS",
       "category": "technical",
-      "level": "beginner",
+      "level": "Beginner",
       "is_main": false,
       "years_of_experience": "",
-      "icon_url": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg"
+      "icon_url": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-plain.svg"
     },
     {
       "id": 4,
       "name": "Python",
       "category": "technical",
-      "level": "intermediate",
+      "level": "Intermediate",
       "is_main": false,
       "years_of_experience": 2,
       "icon_url": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg"

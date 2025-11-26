@@ -81,3 +81,12 @@ body {
 .card {
   border-radius: 15px !important;
 }
+.progress-bar {
+  transition: width 0.6s ease;
+  background-color: #007bff;
+}
+
+.progress {
+  background-color: #e9ecef;
+  border-radius: 10px;
+}
