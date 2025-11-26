@@ -19,27 +19,37 @@
       "id": 1,
       "name": "ReactJS",
       "category": "technical",
-      "level": "advanced",
+      "level": "beginner",
       "is_main": true,
-      "years_of_experience": 2,
+      "years_of_experience": "",
       "icon_url": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg"
     },
     {
       "id": 2,
       "name": "Django REST Framework",
       "category": "technical",
-      "level": "intermediate",
+      "level": "beginner",
       "is_main": true,
-      "years_of_experience": 1,
+      "years_of_experience": "",
       "icon_url": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/django/django-plain.svg"
     },
     {
       "id": 3,
-      "name": "Tailwind CSS",
+      "name": "Bootstrap CSS",
+      "category": "technical",
+      "level": "beginner",
+      "is_main": false,
+      "years_of_experience": "",
+      "icon_url": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg"
+    },
+    {
+      "id": 4,
+      "name": "Python",
       "category": "technical",
       "level": "intermediate",
       "is_main": false,
-      "icon_url": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg"
+      "years_of_experience": 2,
+      "icon_url": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg"
     }
   ],
 
@@ -66,7 +76,7 @@
     },
     {
       "id": 103,
-      "title": "Staff Tata Usaha SMP Darur Rohmah",
+      "title": "Staff Tata Usaha",
       "organization": "SMP Darur Rohmah",
       "experience_type": "Work",
       "start_date": "2022-09-01",
