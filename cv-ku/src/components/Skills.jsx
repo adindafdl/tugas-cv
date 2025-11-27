@@ -21,7 +21,7 @@ const getPercentage = (level) => {
             return (
                 <div key={skill.id} className="col-md-6">
                     <div className="p-3 border rounded">
-                        <div className="d-flex align-items-center gap-3">
+                        <div className="d-flex align-items-center gap-3 mb-2">
                             <img src={skill.icon_url} width="40" alt="" />
                             <div>
                                 <strong>{skill.name}</strong>
@@ -39,7 +39,7 @@ const getPercentage = (level) => {
                             <div className="progress-bar" style={{ width: `${percent}%` }}></div>
                         </div>
                         <span
-                            className="badge bg-primary"
+                            className="badge bg-primary ms auto"
                             style={{ width: "100px", textAlign: "center" }}>
                             {skill.level}
                         </span>

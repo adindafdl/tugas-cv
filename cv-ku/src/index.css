@@ -105,10 +105,10 @@ body {
 .experience-type-badge {
   position: absolute;
   right: 20px;
-  top: 15px;
-  padding: 5px 12px;
-  font-size: 12px;
-  border-radius: 12px;
+  top: 20px;
+  padding: 5px 15px;
+  font-size: 13px;
+  border-radius: 6px;
   font-weight: 600;
   text-transform: capitalize;
 }
@@ -120,7 +120,7 @@ body {
 }
 
 .experience-type-badge.internship {
-  background: #dceaff;
+  background: #dceafe;
   color: #2955cc;
 }
 
