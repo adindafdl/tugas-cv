@@ -1,7 +1,6 @@
 import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./index.css";
-import "./styles/experience.css";
 import Profile from "./components/Profile";
 import Skills from "./components/Skills";
 import Experiences from "./components/Experiences";
