@@ -62,7 +62,7 @@
       "start_date": "2024-02-01",
       "end_date": "2024-12-15",
       "description": "Mengembangkan keterampilan kepemimpinan dan sosial, manajemen waktu, memperluas jaringan pertemanan dan relasi profesional, serta menjadi ajang untuk mengasah soft skills dan menambah pengalaman yang berguna di dunia kerja.",
-      "image_url": "/src/assets/hima.jpg"
+      "skills": []
     },
     {
       "id": 102,
@@ -72,7 +72,7 @@
       "start_date": "2025-02-01",
       "end_date": "2025-12-31",
       "description": "Memastikan kesehatan keuangan, mengelola arus kas, dan menjaga agar organisasi memiliki sumber daya yang cukup untuk operasi, serta mengelola risiko keuangan.",
-      "image_url": "/src/assets/hmp.jpg"
+      "skills": []
     },
     {
       "id": 103,
@@ -82,7 +82,7 @@
       "start_date": "2022-09-01",
       "end_date": "2023-05-15",
       "description": "Pengelolaan berbagai urusan administrasi sekolah agar operasional berjalan lancar, termasuk administrasi kepegawaian, keuangan, kesiswaan, sarana dan prasarana, serta surat-menyurat dan kearsipan.",
-      "image_url": "/src/assets/tu.jpg"
+      "skills": []
     }
   ],
 
