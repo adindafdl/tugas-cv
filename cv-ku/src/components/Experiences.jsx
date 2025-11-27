@@ -1,48 +1,50 @@
-// import React from "react";
-
-// const Experiences = ({ experiences }) => {
-//   return (
-//     <div className="card p-3 mb-3">
-//       <h3>Pengalaman</h3>
-//       {experiences.map(exp => (
-//         <div key={exp.id} className="mb-2">
-//           <strong>{exp.title}</strong> — {exp.organization}  
-//           <br />
-//           <small>{exp.start_date} → {exp.end_date}</small>
-//           <p>{exp.description}</p>
-//         </div>
-//       ))}
-//     </div>
-//   );
-// };
-
-// export default Experiences;
-
 import React from "react";
 
 const Experiences = ({ experiences }) => {
   return (
-    <div className="card shadow p-4 border-0">
+    <div className="card p-4 shadow mb-4">
       <h5 className="fw-bold mb-4">Experience</h5>
 
       {experiences.map((exp) => (
-        <div key={exp.id} className="border-bottom pb-3 mb-3 ">
-            {exp.image_url && (
-            <img 
-              src={exp.image_url} 
-              alt={exp.organization} 
-              width="55"
-              height="55"
-              className="rounded"
-              style={{ objectFit: "cover" }}
-            />
-          )}
-          <h6 className="fw-bold">{exp.title}</h6>
-          <p className="text-muted mb-1">{exp.organization}</p>
+        <div key={exp.id} className="d-flex mb-4">
+          
+          {/* ICON BULAT */}
+          <div className="icon-circle">
+            <i className="bi bi-briefcase"></i>
+          </div>
 
-          <span className="badge bg-info text-dark mb-2">{exp.experience_type}</span>
+          {/* WRAPPER KONTEN */}
+          <div className="flex-grow-1">
+            {/* Header title + badge */}
+            <div className="d-flex justify-content-between align-items-start">
+              <div>
+                <strong className="fs-5">{exp.title}</strong>
+                <div className="text-muted">{exp.company}</div>
+              </div>
 
-          <p className="small">{exp.description}</p>
+              <span className="badge bg-success text-capitalize">
+                {exp.type}
+              </span>
+            </div>
+
+            {/* Date */}
+            <div className="mt-2 text-muted small d-flex gap-2 align-items-center">
+              <i className="bi bi-calendar"></i>
+              <span>{exp.date}</span>
+            </div>
+
+            {/* Description */}
+            <p className="mt-2">{exp.description}</p>
+
+            {/* Skills */}
+            <div className="d-flex flex-wrap gap-2 mt-2">
+              {exp.skills?.map((skill, i) => (
+                <span key={i} className="badge bg-light text-dark border">
+                  {skill}
+                </span>
+              ))}
+            </div>
+          </div>
         </div>
       ))}
     </div>
