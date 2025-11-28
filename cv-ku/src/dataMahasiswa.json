@@ -7,11 +7,11 @@
     "nim": "L200230257",
     "prodi": "Teknik Informatika",
     "angkatan": "2023",
-    "photo_url": "/src/assets/din.jpg",
+    "photo_url": "/din.jpg",
     "headline": "Fullstack Web Developer | React & Django Enthusiast",
     "short_bio": "Mahasiswa UMS jurusan Teknik Informatika yang mengambil konsentrasi RPL.",
     "location": "Surakarta, Jawa Tengah",
-    "portfolio_url": "https://auliapratama.com"
+    "portfolio_url": "https://github.com/adindafdl"
   },
 
   "skills": [
@@ -66,19 +66,19 @@
     },
     {
       "id": 102,
-      "title": "Bendahara Himpunan Mahasiswa Teknik Informatika",
-      "organization": "Himpunan Mahasiswa Teknik Informatika UMS",
-      "type": "organization",
-      "start_date": "Februari 2025",
-      "end_date": "Sekarang",
-      "description": "Memastikan kesehatan keuangan, mengelola arus kas, dan menjaga agar organisasi memiliki sumber daya yang cukup untuk operasi, serta mengelola risiko keuangan.",
+      "title": "Asisten Laboratorium Algotima dan Pemrograman",
+      "organization": "Computer Lab FKI UMS",
+      "type": "experience",
+      "start_date": "September 2024",
+      "end_date": "Februari 2025",
+      "description": "Membantu dosen pengampu dalam menjalankan praktikum, menilai laporan praktikum mahasiswa, membantu mahasiswa dalam kegiatan praktikum.",
       "skills": []
     },
     {
       "id": 103,
       "title": "Asisten Laboratorium Pemrograman Berorientasi Objek",
-      "organization": "Teknik Informatika UMS",
-      "type": "freelance",
+      "organization": "Computer Lab FKI UMS",
+      "type": "experience",
       "start_date": "September 2025",
       "end_date": "Sekarang",
       "description": "Membantu dosen pengampu dalam menjalankan praktikum, menilai laporan praktikum mahasiswa, membantu mahasiswa dalam kegiatan praktikum.",
